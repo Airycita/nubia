@@ -1,16 +1,24 @@
 {
-  "name": "nodejs",
+  "name": "nubia-hjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyberghxst/nubia-hjs.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyberghxst/nubia-hjs/issues"
+  },
+  "homepage": "https://github.com/Cyberghxst/nubia-hjs#readme",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "node-fetch": "^3.2.6"
+    "hytescript.js": "github:paebukoa/hyteScript.js",
+    "translate-google": "^1.5.0"
   }
 }
